@@ -1,0 +1,59 @@
+@font-face {
+ font-family: 'header';
+ src: url("RAGE.TTF") format("truetype");
+ font-weight: normal;
+ font-style: normal; }
+
+body{
+font-family:sans-serif;
+background-image: url(../images/background.jpg);
+}
+
+h1{ 
+    font-size: 50px; 
+    font-family: 'header';
+    color: #3F1CFF;
+    text-align: center;
+    line-height 1.5; 
+}
+
+.smallbox:nth-child(3){
+    background-color: #ACDDE7 ;
+}
+
+.smallbox{
+    background-color: #B744B8 ;
+}
+
+#box1{
+    background-color: #A379C9 ;    
+}
+
+#box1, #box2, #box3{
+    width:200px;
+    height:200px;
+    float:left;
+    margin:20px 0px 0px 3px;
+    padding: 30px; 
+
+}
+
+#container{
+    width:600px;
+    margin:0px auto;
+}
+
+.path p {
+    font-family: 'Architects Daughter', cursive;
+}
+
+.products div{
+    display: inline-block;
+    text-align: center;
+    width: 150px;
+    background: #B744B8;
+}
+
+.products div h1{
+font-size: 20px;
+}
